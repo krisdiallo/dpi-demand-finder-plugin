@@ -1,28 +1,17 @@
 # Kris's Plugin Marketplace
 
-A Claude plugin marketplace that distributes **DPI Demand Finder** with update support. Unlike sharing a loose `.plugin` file, installing from here means recipients get notified (and can update) whenever a new version is pushed.
+A Claude Code plugin marketplace that distributes **DPI Demand Finder** — guided demand-discovery interviews (DPIs) to find authentic demand for any startup thesis. Installing from here (rather than from a loose plugin file) means you get notified, and can update, whenever a new version is pushed.
 
-## Publish it (one time)
+## Install
 
-1. Create a new GitHub repo (public, or private if your group has access to it).
-2. Put these files at the repo root and push:
-   ```
-   git init
-   git add .
-   git commit -m "DPI Demand Finder marketplace v1.0.0"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/<repo>.git
-   git push -u origin main
-   ```
-
-## Share it with your group
-
-Send them two commands:
+In Claude Code, run:
 ```
-/plugin marketplace add <your-username>/<repo>
+/plugin marketplace add krisdiallo/dpi-demand-finder-plugin
 /plugin install dpi-demand-finder@kris-dpi-marketplace
 ```
 (Cowork desktop users: add the marketplace from the Marketplace screen using the same repo, then install DPI Demand Finder.)
+
+Then start with `/dpi-start`. See the [plugin README](plugins/dpi-demand-finder/README.md) for the full workflow.
 
 ## Ship an update
 
