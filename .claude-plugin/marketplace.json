@@ -1,0 +1,15 @@
+{
+  "name": "kris-dpi-marketplace",
+  "owner": {
+    "name": "Kris Diallo"
+  },
+  "version": "1.0.0",
+  "description": "Kris Diallo's plugins — DPI (Documented Primary Interaction) demand-discovery tooling.",
+  "plugins": [
+    {
+      "name": "dpi-demand-finder",
+      "source": "./plugins/dpi-demand-finder",
+      "description": "Guided DPIs to find authentic demand for any startup thesis. Talks you through setting up a living, on-device system, then sharpens it with every interview by trying to prove your idea wrong."
+    }
+  ]
+}

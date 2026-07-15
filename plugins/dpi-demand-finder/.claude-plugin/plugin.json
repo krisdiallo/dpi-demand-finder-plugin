@@ -1,0 +1,16 @@
+{
+  "name": "dpi-demand-finder",
+  "version": "0.1.0",
+  "description": "Guided DPIs (Documented Primary Interactions) to find authentic demand for any startup thesis. Talks you through setting up a living, on-device system, then sharpens it with every interview by trying to prove your idea wrong.",
+  "author": {
+    "name": "Kris Diallo"
+  },
+  "keywords": [
+    "dpi",
+    "customer-discovery",
+    "authentic-demand",
+    "startup",
+    "validation",
+    "interviews"
+  ]
+}
